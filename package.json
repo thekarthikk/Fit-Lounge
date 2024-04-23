@@ -1,7 +1,5 @@
 {
-  "homepage": "http://fitlounge.com/relativepath",
-
-  "name": "project1",
+  "name": "gymwebsite",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
