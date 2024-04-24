@@ -27,7 +27,7 @@ export default function About() {
       <p><b>Contact Number :</b></p>
       <div className="whatsapp"><FaWhatsappSquare /> -</div>
       <div className="dropdown">
-  <a className="btn btn-info dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+  <a className="btn btn-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
     Payment Mode
   </a>
   <ul className="dropdown-menu">
