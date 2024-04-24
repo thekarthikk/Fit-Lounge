@@ -1,4 +1,7 @@
 import React from 'react'
+import { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+
 export default function Carosel() {
   return (
     <>
@@ -40,6 +43,7 @@ export default function Carosel() {
     <span className="visually-hidden">Next</span>
   </button>
 </div>
+
 
     </>
   )

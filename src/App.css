@@ -40,13 +40,13 @@ body::-webkit-scrollbar {
 .program{
     text-align: center;
     width: 100%;
-    color: black;
-    background-color: #FF204E;
+    color: white;
+    background-color: black;
     font-size: 2.5rem;
+    border-radius: 1%;
 }
 :hover.program{
-    color: white;
-    background-color: #00224D;
+    color:#D8D9DA;
 }
 
 
@@ -59,4 +59,11 @@ body::-webkit-scrollbar {
 }
 h3,h3,p{
    padding: .1rem;
+}
+
+/* footer */
+.copyright{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
 }
