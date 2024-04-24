@@ -9,7 +9,7 @@ export default function Card() {
   <img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className="card-img-top" alt="GYm image"/>
   <div className="card-body" >
     <h5 className="card-title">Weight Training</h5>
-    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <p className="card-text">Build strength, endurance, and confidence with our tailored weight training programs. Expert guidance, state-of-the-art equipment, and personalized plans for your fitness goals.</p>
     {/* <a href="#" className="btn btn-success">Just @999/per month</a> */}
     <div class="dropdown">
   <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -27,7 +27,7 @@ export default function Card() {
   <img src="https://images.unsplash.com/photo-1614928228253-dc09cbc3b11c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className="card-img-top" alt="GYm image"/>
   <div className="card-body" >
     <h5 className="card-title">Fat-Loss Training</h5>
-    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <p className="card-text">Transform your body and shed excess weight with our specialized fat loss programs. Personalized plans, expert guidance, and effective workouts for achieving your fitness goals.</p>
     {/* <a href="#" className="btn btn-success">Just @1299/per month</a> */}
     <div class="dropdown">
   <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -45,7 +45,7 @@ export default function Card() {
   <img src="https://images.unsplash.com/photo-1608138404239-d2f557515ecb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className="card-img-top" alt="GYm image"/>
   <div className="card-body" >
     <h5 className="card-title">Cardio</h5>
-    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <p className="card-text">Boost your cardiovascular health and endurance with our dynamic cardio programs. Personalized workouts, expert guidance, and state-of-the-art equipment for reaching your fitness goals.</p>
     {/* <a href="#" className="btn btn-success">Just @1399/per month</a> */}
     <div class="dropdown">
   <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -63,7 +63,7 @@ export default function Card() {
   <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className="card-img-top" alt="GYm image"/>
   <div className="card-body" >
     <h5 className="card-title">Personal Training</h5>
-    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <p className="card-text">Experience personalized training tailored to your goals with our expert trainers. Customized plans, one-on-one guidance, and state-of-the-art facilities for maximizing your fitness journey.</p>
     {/* <a href="#" className="btn btn-success">Just @6000/per month</a> */}
     <div class="dropdown">
   <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
