@@ -4,13 +4,12 @@ export default function Card() {
   return (
     <>
     <h1 className='program'>Programs</h1>
-   <div style={{display:'flex',flexDirection:'row',justifyContent:'space-evenly', marginTop:'.8rem', flexWrap:'wrap'}}>
+   <div style={{display:'flex',flexDirection:'row',justifyContent:'space-evenly', flexWrap:'wrap'}}>
    <div className="card" style={{width: '22rem',margin:'.8%'}}  >
   <img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className="card-img-top" alt="GYm image"/>
   <div className="card-body" >
     <h5 className="card-title">Weight Training</h5>
     <p className="card-text">Build strength, endurance, and confidence with our tailored weight training programs. Expert guidance, state-of-the-art equipment, and personalized plans for your fitness goals.</p>
-    {/* <a href="#" className="btn btn-success">Just @999/per month</a> */}
     <div class="dropdown">
   <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
     Just @999/Monthly

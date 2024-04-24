@@ -37,7 +37,7 @@ body::-webkit-scrollbar {
 
 
 /* //card */
-.program{
+/* .program{
     text-align: center;
     width: 100%;
     color: white;
@@ -47,6 +47,35 @@ body::-webkit-scrollbar {
 }
 :hover.program{
     color:#D8D9DA;
+} */
+.program{
+        position: relative;
+        font-family: sans-serif;
+        text-transform: uppercase;
+        width: 100%;
+        font-size: 3em;
+        font-weight: 600;
+        letter-spacing: 4px;
+        overflow: hidden;
+        background: linear-gradient(90deg, #000, #fff, #000);
+        background-repeat: no-repeat;
+        background-size: 80%;
+        animation: animate 3s linear infinite;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: rgba(255, 255, 255, 0);
+      }
+      
+      @keyframes animate {
+        0% {
+          background-position: -500%;
+        }
+        100% {
+          background-position: 500%;
+        }
+      
+}
+.program{
+    text-align: center;
 }
 
 
@@ -59,6 +88,23 @@ body::-webkit-scrollbar {
 }
 h3,h3,p{
    padding: .1rem;
+}
+
+.whatsapp ,.pay{
+    font-size: 2.5rem;
+    margin-top: -1.6rem;
+    margin-left: .5rem;
+}
+
+.cash{
+    font-size: 1.3rem;
+    display: inline-block;
+}
+.dropdown{
+    margin: .5rem;
+}
+.dropdown-icon{
+    font-size: 2rem;
 }
 
 /* footer */
