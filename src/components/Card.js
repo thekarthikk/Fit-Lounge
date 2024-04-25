@@ -11,13 +11,13 @@ export default function Card() {
     <h5 className="card-title">Weight Training</h5>
     <p className="card-text">Build strength, endurance, and confidence with our tailored weight training programs. Expert guidance, state-of-the-art equipment, and personalized plans for your fitness goals.</p>
     <div class="dropdown">
-  <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+  <button class="btn btn-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
     Just @999/Monthly
   </button>
   <ul class="dropdown-menu">
     <li><a class="dropdown-item" >Just @2499/Quarterly</a></li>
-    <li><a class="dropdown-item" >Just @5999/Biannually</a></li>
-    <li><a class="dropdown-item" >Just @9999/Annually</a></li>
+    <li><a class="dropdown-item" >Just @4499/Biannually</a></li>
+    <li><a class="dropdown-item" >Just @5999/Annually</a></li>
   </ul>
 </div>
   </div>
@@ -29,13 +29,13 @@ export default function Card() {
     <p className="card-text">Transform your body and shed excess weight with our specialized fat loss programs. Personalized plans, expert guidance, and effective workouts for achieving your fitness goals.</p>
     {/* <a href="#" className="btn btn-success">Just @1299/per month</a> */}
     <div class="dropdown">
-  <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-    Just @999/Monthly
+  <button class="btn btn-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Just @1299/Monthly
   </button>
   <ul class="dropdown-menu">
     <li><a class="dropdown-item" >Just @2499/Quarterly</a></li>
-    <li><a class="dropdown-item" >Just @5999/Biannually</a></li>
-    <li><a class="dropdown-item" >Just @9999/Annually</a></li>
+    <li><a class="dropdown-item" >Just @5499/Biannually</a></li>
+    <li><a class="dropdown-item" >Just @6999/Annually</a></li>
   </ul>
 </div>
   </div>
@@ -47,13 +47,13 @@ export default function Card() {
     <p className="card-text">Boost your cardiovascular health and endurance with our dynamic cardio programs. Personalized workouts, expert guidance, and state-of-the-art equipment for reaching your fitness goals.</p>
     {/* <a href="#" className="btn btn-success">Just @1399/per month</a> */}
     <div class="dropdown">
-  <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-    Just @999/Monthly
+  <button class="btn btn-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Just @1299/Monthly
   </button>
   <ul class="dropdown-menu">
     <li><a class="dropdown-item" >Just @2499/Quarterly</a></li>
-    <li><a class="dropdown-item" >Just @5999/Biannually</a></li>
-    <li><a class="dropdown-item" >Just @9999/Annually</a></li>
+    <li><a class="dropdown-item" >Just @5499/Biannually</a></li>
+    <li><a class="dropdown-item" >Just @6999/Annually</a></li>
   </ul>
 </div>
   </div>
@@ -63,17 +63,17 @@ export default function Card() {
   <div className="card-body" >
     <h5 className="card-title">Personal Training</h5>
     <p className="card-text">Experience personalized training tailored to your goals with our expert trainers. Customized plans, one-on-one guidance, and state-of-the-art facilities for maximizing your fitness journey.</p>
-    {/* <a href="#" className="btn btn-success">Just @6000/per month</a> */}
-    <div class="dropdown">
+    <a className="btn btn-dark">Just @4999/per month</a>
+    {/* <div class="dropdown">
   <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-    Just @999/Monthly
+    Just @4999/Monthly
   </button>
   <ul class="dropdown-menu">
     <li><a class="dropdown-item" >Just @2499/Quarterly</a></li>
     <li><a class="dropdown-item" >Just @5999/Biannually</a></li>
     <li><a class="dropdown-item" >Just @9999/Annually</a></li>
   </ul>
-</div>
+</div> */}
   </div>
 </div>
    </div>

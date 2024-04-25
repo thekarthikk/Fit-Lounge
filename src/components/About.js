@@ -3,7 +3,7 @@ import { FaWhatsappSquare } from "react-icons/fa";
 import { FaGooglePay } from "react-icons/fa";
 
 
-export default function About() {
+export default function About(props) {
   return (
     <>
     <div className="about-us">
@@ -23,10 +23,10 @@ export default function About() {
       <p>2nd Floor, Beside Indianoil Petrol Bunk, Kavadiguda, Hyderabad - 500080 (Mainroad CGO Towers Lane)</p>
 
       <h3>Owner Details</h3>
-      <p><b>Name : </b></p>
-      <p><b>Contact Number :</b></p>
-      <div className="whatsapp"><FaWhatsappSquare /> -</div>
-      <div className="dropdown">
+      <p><b>Name : {props.name} </b></p>
+      <p><b>Contact Number : {props.contact}</b></p>
+      <div className="whatsapp"><FaWhatsappSquare /> : {props.contact}</div>
+      {/* <div className="dropdown">
   <a className="btn btn-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
     Payment Mode
   </a>
@@ -35,7 +35,7 @@ export default function About() {
     <li><b className="dropdown-item" href="#">Google Pay</b></li>
     <li><b className="dropdown-item" href="#">Phone Pay</b></li>
   </ul>
-</div>
+</div> */}
     </div>
     </>
   )

@@ -22,7 +22,7 @@ function App() {
    </Route>
    </Switch>
    </BrowserRouter> */}
-   <About/>
+   <About name="Srikanth Gatla" contact="9246607713" />
    <Footer/>
    </>
   );
