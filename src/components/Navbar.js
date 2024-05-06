@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaRunning } from "react-icons/fa";
-import { FaGooglePay } from "react-icons/fa";
+import {Link} from "react-router-dom"
 
 
 export default function Navbar() {
@@ -18,13 +18,13 @@ export default function Navbar() {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <a className="nav-link active" id="home"aria-current="page" href="/">Home</a>
+          <Link className="nav-link active" id="home"aria-current="page" to="/">Home</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link active" id="about" href ="/about">About Us</a>
+          <Link className="nav-link active" id="about" to ="/about">About Us</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link active" id="about"href="/about">Contact Us</a>
+          <Link className="nav-link active" id="about" to="/about">Contact Us</Link>
         </li>
         <li className="nav-item">
         </li>

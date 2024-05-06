@@ -64,16 +64,6 @@ export default function Card() {
     <h5 className="card-title">Personal Training</h5>
     <p className="card-text">Experience personalized training tailored to your goals with our expert trainers. Customized plans, one-on-one guidance, and state-of-the-art facilities for maximizing your fitness journey.</p>
     <a className="btn btn-dark">Just @4999/per month</a>
-    {/* <div class="dropdown">
-  <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-    Just @4999/Monthly
-  </button>
-  <ul class="dropdown-menu">
-    <li><a class="dropdown-item" >Just @2499/Quarterly</a></li>
-    <li><a class="dropdown-item" >Just @5999/Biannually</a></li>
-    <li><a class="dropdown-item" >Just @9999/Annually</a></li>
-  </ul>
-</div> */}
   </div>
 </div>
    </div>
