@@ -5,7 +5,7 @@ export default function About() {
   return (
     <>
     <div className="accordion" id="accordionExample">
-      <h1 className='m-2'>About Us</h1>
+      <h1 className='m-4'>About Us</h1>
   <div className="accordion-item">
     <h2 className="accordion-header">
       <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">

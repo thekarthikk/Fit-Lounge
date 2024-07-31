@@ -9,7 +9,7 @@ export default function Card() {
   <img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className="card-img-top" alt="GYm image"/>
   <div className="card-body" >
     <h5 className="card-title">Weight Training</h5>
-    <p className="card-text">Build strength, endurance, and confidence with our tailored weight training programs. Expert guidance, state-of-the-art equipment, and personalized plans for your fitness goals.</p>
+    <p className="card-text">Build strength, endurance, and confidence with our tailored weight training programs. Expert guidance, state-of-the-art equipment, and personalized plans for your fitness goals. Join us <b>Now !</b> </p>
     <div class="dropdown">
   <button class="btn btn-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
     Just @999/Monthly
